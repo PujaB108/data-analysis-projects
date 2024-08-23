@@ -38,8 +38,12 @@ if crew_status and computer_status_code == 200 and space_suits_on:
 else:
    print("WARNING. Not ready")
 
+<<<<<<< HEAD
 if crew_status != True or computer_status_code != 200 or not(space_suits_on):
    print("WARNING. Not ready")
 else:
    print("all systems go")
 # print("Yes" or "No") Both code blocks produce the same output "all systems go". Therefore, the answer is "Yes"
+=======
+# print("Yes" or "No")
+>>>>>>> upstream/main
