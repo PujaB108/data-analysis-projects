@@ -10,7 +10,7 @@ flavors = {
 }
 
 # Set a variable called choice to the flavor you want to search for.
-# The code below returns the output 2.25
+# The code below returns the output as cost 2.25
 choice = 'saffron'
 
 if choice in flavors:
