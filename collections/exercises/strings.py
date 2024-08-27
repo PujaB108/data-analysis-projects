@@ -67,7 +67,7 @@ for index in word:
 print(reversed_word)
 
 # 3. Refactor the code to print a combination of the original and reversed string. For example, given 'tomato', print 'tomatootamot'. (If you want to be fancy, print 'tomato | otamot').
-# Below code returns the output 'tomato | otamot'
+# Below code returns the desired output 'tomato | otamot'
 word = 'tomato'
 reversed_word = ""
 
