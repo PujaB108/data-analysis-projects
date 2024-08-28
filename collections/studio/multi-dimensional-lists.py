@@ -4,6 +4,11 @@ pets = "parrots,cats,moose,alien eggs"
 sleep_aids = "blankets,pillows,eyepatches,alarm clocks"
 
 # a) Use split to convert the strings into four cabinet lists. Alphabetize the contents of each cabinet.
+food.split(',')
+print(food)
+
+food.sort()
+print(food)
 
 
 
