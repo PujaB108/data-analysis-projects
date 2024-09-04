@@ -22,10 +22,26 @@ print(reverse_character('I love the smell of code in the morning'))
 # e) Be sure to print the result returned by the function to verify that your code works for both strings and numbers. Do this before moving on to the next steps.
 
 def reverse_character(num):
-    num = str(num)
-    return num[::-1]
+
+    if type(num) == str:
+        num = ''.join(num[::-1])
+        return num
+    elif type(num) == int:
+        num = str(num)
+        num = ''.join(num[::-1])
+        return int(num)
+    elif type(num) == float:
+        num = str(num)
+        num == ''.join(num[::-1])
+        return float(num)
+    else:
+        return "Invalid input"
+    
 print(reverse_character(1234))
+print(reverse_character('LC101'))
 print(reverse_character(8675309))
+print(reverse_character('radar'))
+
 
 # 3) Create a new function with one parameter, which is the list we want to change. The function should:
 # a) Define and initialize an empty list.
