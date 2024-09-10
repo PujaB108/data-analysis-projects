@@ -23,3 +23,4 @@ MilesToMoon = Moon * MilesPerKm
 HoursToMoon = Moon / ShuttleSpeed
 DaysToMoon = HoursToMoon / 24
 print (ShuttleName + " will take " + str(DaysToMoon) + " days to reach the Moon.")
+
